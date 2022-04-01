@@ -6,7 +6,7 @@ function predictTitles() {
     box = document.getElementById("multiselect2_to");
     option = box.getElementsByTagName("option")
     if (option.length == 0){
-        var html= "<br><br><br><p> <b> Top Career Choices : <b><p><ul>Please select your skills. <br>E.g. Python, R, SQL, C, C++, Java, Javascript, Bash, MATLAB</ul><br>";
+        var html= "<br><br><br><p> <b> Top Career Choices : <b><p><ul>Please select your skills. <br>E.g. Python, R, SQL, C, C++, Java, JavaScript, Bash, MATLAB</ul><br>";
         document.getElementById("show_id").innerHTML = html;
         return
     }
@@ -22,7 +22,7 @@ function predictTitles() {
         }
     }
     if (input == 0){
-        var html= "<br><br><br><p> <b> Top Career Choices : <b><p><ul>Did you miss to add some basic skills?  <br>E.g. Python, R, SQL, C, C++, Java, Javascript, Bash, MATLAB</ul><br>";
+        var html= "<br><br><br><p> <b> Top Career Choices : <b><p><ul>Did you miss to add some basic skills?  <br>E.g. Python, R, SQL, C, C++, Java, JavaScript, Bash, MATLAB</ul><br>";
         document.getElementById("show_id").innerHTML = html;
         return
     }
