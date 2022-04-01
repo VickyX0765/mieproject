@@ -78,12 +78,6 @@ function calc_score(a, b){
         a2 = Math.floor(a2/base);
         b2 = Math.floor(b2/base);
     }
-    if (diff == 0) {
-        return 1;
-    }
-    if (diff == 1){
-        return 0.875
-    }
-    return 0 ;
+    return 1/(Math.sqrt(diff) + 0.01);
 }
 
