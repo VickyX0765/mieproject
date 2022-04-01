@@ -45,7 +45,7 @@ function predictTitles() {
                 scores[y] = scores[y] + calc_score(input,x)
             }
             var indices = new Array(scores);
-            for (var i = 0; i < 9; ++i){
+            for (var i = 0; i < 6; ++i){
                 indices[i] = i;
             }
             indices.sort(function (a, b) { return scores[a] < scores[b] ? -1 : scores[a] > scores[b] ? 1 : 0; });
