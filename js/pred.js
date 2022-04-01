@@ -67,7 +67,7 @@ function calc_score(a, b){
     var base = 10;
     for (var i=0; i<9; i++) {
         if (a2 % base != b2% base){
-            if (diff > 3){
+            if (diff > 1){
                 return 0;
             } else {
               diff = diff +1;
@@ -78,8 +78,11 @@ function calc_score(a, b){
         b2 = Math.floor(b2/base);
     }
     if (diff == 0) {
-        return 20;
+        return 1;
     }
-    return 9/diff ;
+    if (diff == 1){
+        return 0.875
+    }
+    return 0 ;
 }
 
