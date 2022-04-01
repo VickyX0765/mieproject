@@ -67,7 +67,8 @@ function calc_score(a, b){
     var base = 10;
     for (var i=0; i<9; i++) {
         if (a2 % base != b2% base){
-            if (diff > 1){
+            //only same or 1 diff is acceptable
+            if (diff > 0){
                 return 0;
             } else {
               diff = diff +1;
