@@ -13,6 +13,7 @@ function findSkills() {
     map.set("CHE1148H", [ "python","spark"]);
     map.set("CHE1434H", [ "minitab"]);
     map.set("CEM1002H", [ "rapidminer"]);
+    map.set("CIV1506H", [ "excel"]); 
     map.set("ECE1778H", [ "android","ios"]);
     map.set("ECE1779H", [ "aws", "cloud platform"]);
     map.set("MIE1413H", [ "r","sas"]);
