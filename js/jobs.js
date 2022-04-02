@@ -17,6 +17,7 @@ function searchByTitles() {
     if (raw.includes('Machine Learning')){
         keywords.push("machine learning");
         keywords.push("research");
+        keywords.push("scientist");
     }
     if (raw.includes('Product Manager')){
         keywords.push("product");
