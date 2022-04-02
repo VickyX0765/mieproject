@@ -17,7 +17,6 @@ function searchByTitles() {
     if (raw.includes('Machine Learning')){
         keywords.push("machine learning");
         keywords.push("research");
-        keywords.push("scientist");
     }
     if (raw.includes('Product Manager')){
         keywords.push("product");
@@ -49,7 +48,7 @@ function searchByTitles() {
 
     for (i = 0; i < tr.length; i++) {
       display = "none";
-      td = tr[i].getElementsByTagName("td")[1];
+      td = tr[i].getElementsByTagName("td")[0];
       if (td) {
         txtValue = (td.textContent || td.innerText).toLowerCase();
         if (txtValue.match(regexFormat)){
