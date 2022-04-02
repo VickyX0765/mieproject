@@ -26,7 +26,7 @@ function findSkills() {
     map.set("MIE1624H", [ "sql","python"]);
     map.set("MIE1626H", [ "python","r"]);
     map.set("MIE1628H", [ "python","hadoop","spark","azure","aws","cloud platform"]);
-    map.set("MIE1721H", [ "python"]);
+    map.set("MIE1721H", [ "excel"]);
     map.set("MIE1723H", [ "orest", "exakt"]);
     map.set("MIE1727H", [ "excel"]);
     map.set("MSE1063H", [ "python","r"]);
