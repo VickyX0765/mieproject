@@ -34,6 +34,9 @@ function searchByTitles() {
     if(raw.includes('Business Analyst')){
         keywords.push("business");
     }
+    if (raw.inclues('Data Scientist')){
+        keywords.push("data scientist");
+    }    
 
     if (keywords.length == 0){
         return
