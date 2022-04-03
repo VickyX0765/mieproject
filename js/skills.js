@@ -15,7 +15,7 @@ function findSkills() {
     map.set("CEM1002H", [ "rapidminer"]);
     map.set("CIV1506H", [ "excel"]); 
     map.set("ECE1778H", [ "android","ios"]);
-    map.set("ECE1779H", [ "aws", "cloud platform"]);
+    map.set("ECE1779H", [ "aws", "cloud platform", "ec2"]);
     map.set("MIE1413H", [ "r","sas"]);
     map.set("MIE1501H", [ "rdf","sparql"]);
     map.set("MIE1512H", [ "sql"]);
